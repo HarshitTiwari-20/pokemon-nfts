@@ -10,7 +10,7 @@ export default function Home() {
   const AIAContract = getContract({
     client: client,
     chain: defineChain(1320),
-    address: "0xefbff58f00660c9507f226c32a6c9b0cf2e313a9",
+    address: "0xefbff58f00660c9507f226c32a6c9b0cf2e313a9"
   });
 
   return (
